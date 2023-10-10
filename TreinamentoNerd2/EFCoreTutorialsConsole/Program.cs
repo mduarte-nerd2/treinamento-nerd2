@@ -7,7 +7,9 @@ namespace EFCoreTutorialsConsole
         static void Main(string[] args)
         {
             CriarEntidade();
+
             ListarEstadoUnchangedEntidades();
+
             ListarEstadoAddedEntidades();
 
             ListarEstadoModifiedEntidades();
